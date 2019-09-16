@@ -4,21 +4,24 @@ public class TestaAluno {
         
         
         Aluno a1 = new Aluno();
-        a1.cpf = "12345678913";
+        a1.setCpf("12345678913");
         
         
         Data d1 = new Data();
-        d1.dia = 20;
-        d1.mes = 1;
-        d1.ano = 1991;
+        d1.setDia(20);
+        d1.setMes(1);
+        d1.setAno(1991);
         
         
-        a1.dataDeNasc = d1;
+       a1.setData(d1);
         
         
         System.out.println(a1.imprimir());
         
         
     }
+
+    }
     
-}
+    
+

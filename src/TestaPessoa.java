@@ -4,22 +4,22 @@ public class TestaPessoa {
         
         
         Pessoa p1 = new Pessoa();
-        p1.nome = "Leonardo Ferreira";
-        p1.idade = 28;
+        p1.setNome ("Leonardo Ferreira");
+        p1.setIdade (28);
         
         p1.fazAniversario();
         
-        System.out.println("Nome: " + p1.nome + " Você fará: " + p1.idade + " anos");
+        System.out.println("Nome: " + p1.getNome() + " Você fará: " + p1.getIdade() + " anos");
         
-        p1.idade = 30;
+        p1.setIdade (30);
         p1.fazAniversario();
         
-        System.out.println("Nome: " + p1.nome + " Você fará: " + p1.idade + " anos");
+        System.out.println("Nome: " + p1.getNome() + " Você fará: " + p1.getIdade() + " anos");
         
-        p1.idade = 42;
+        p1.setIdade (42);
         p1.fazAniversario();
         
-        System.out.println("Nome: " + p1.nome + " Você fará: " + p1.idade + " anos");
+        System.out.println("Nome: " + p1.getNome() + " Você fará: " + p1.getIdade() + " anos");
    
     }
     

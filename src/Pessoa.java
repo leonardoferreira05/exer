@@ -1,8 +1,25 @@
 public class Pessoa {
     
     
-    String nome;
-    int idade;
+   private String nome;
+   private int idade;
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String n) {
+        this.nome = n;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setIdade(int i) {
+        this.idade = i;
+    }
+    
     
     
     void fazAniversario() {
