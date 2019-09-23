@@ -1,4 +1,5 @@
 public class Temperatura {
+
     
     
     double converterParaCelsius (double tEmF){

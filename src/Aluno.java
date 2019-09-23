@@ -5,6 +5,20 @@ public class Aluno {
    // Data dataDeNasc;
     private String cpf;
     private Data dataDeNasc;
+
+    public Aluno(String c, Data d) {
+        this.setCpf (c);
+        this.setDataDeNasc(d);
+    }
+
+    Aluno(String s) {
+       
+    }
+
+    
+
+    
+    
     
     public String getCpf(){
         return this.cpf;

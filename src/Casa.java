@@ -6,6 +6,19 @@ public class Casa {
    private Porta porta2;
    private Porta porta3;
 
+    public Casa(String c, Porta p1, Porta p2, Porta p3) {
+        this.setCor (c);
+        this.setPorta1 (p1);
+        this.setPorta2 (p2);
+        this.setPorta3 (p3);
+    }
+
+    Casa(String branco) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+   
+   
+
     public String getCor() {
         return cor;
     }

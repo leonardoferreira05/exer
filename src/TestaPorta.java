@@ -3,11 +3,11 @@ public class TestaPorta {
     public static void main(String[] args) {
         
         
-        Porta porta1 = new Porta();
-        porta1.setCor ("Preto");
-        porta1.setDimensaoX (2.6);
-        porta1.setDimensaoY (3.7);
-        porta1.setDimensaoZ (0.6);
+        Porta porta1 = new Porta("Preto",2.6,3.7,0.6);
+        //porta1.setCor ("Preto");
+       // porta1.setDimensaoX (2.6);
+        //porta1.setDimensaoY (3.7);
+       // porta1.setDimensaoZ (0.6);
         
         String estado;
         if (porta1.estaAberta()) {

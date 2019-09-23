@@ -4,6 +4,8 @@ public class MainTemperatura {
         
         Temperatura t1 = new Temperatura();
         
+        
+        
         double tConvertidaEmC = t1.converterParaCelsius(32);
         System.out.println(tConvertidaEmC);
         
@@ -11,4 +13,7 @@ public class MainTemperatura {
         System.out.println(tConvertidaEmF);
         
     }
+
+   
+    
 }

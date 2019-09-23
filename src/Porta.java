@@ -8,6 +8,24 @@ public class Porta {
     private double dimensaoY;
     private double dimensaoZ;
 
+    public Porta(boolean aberta, String cor, double dimensaoX, double dimensaoY, double dimensaoZ) {
+        this.setAberta (aberta);
+        this.setCor (cor);
+        this.setDimensaoX (dimensaoX);
+        this.setDimensaoY (dimensaoY);
+        this.setDimensaoZ (dimensaoZ);
+    }
+
+    Porta(String amarelo, double d, double d0, double d1) {
+        
+    }
+
+    Porta() {
+       
+    }
+    
+    
+
     public boolean isAberta() {
         return aberta;
     }

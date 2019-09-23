@@ -4,6 +4,16 @@ public class Produto {
     private double preco;
     private String nome;
 
+    public Produto(double preco, String nome) {
+        this.setPreco (preco);
+        this.setNome (nome);
+    }
+
+    Produto(double d) {
+            }
+    
+    
+
     public double getPreco() {
         return preco;
     }

@@ -4,6 +4,13 @@ public class Pessoa {
    private String nome;
    private int idade;
 
+    public Pessoa(String nome, int idade) {
+        this.setNome (nome);
+        this.setIdade (idade);
+    }
+   
+   
+
     public String getNome() {
         return nome;
     }
